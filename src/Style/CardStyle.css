@@ -1,0 +1,59 @@
+/* Estilos de la tarjeta de bloque */
+.note {
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease;
+    overflow: hidden; /* Evitar que el contenido se desborde */
+}
+
+.note:hover {
+    transform: translateY(-5px);
+}
+
+.note_id {
+    font-size: 0.8rem;
+    color: #777777;
+    margin-bottom: 0.5rem;
+}
+
+.note_title {
+    font-size: 1.2rem;
+    color: #333333;
+    margin-bottom: 0.5rem;
+    text-align: center; /* Centrar el texto */
+    overflow: hidden; /* Evitar que el título se desborde */
+    text-overflow: ellipsis; /* Mostrar puntos suspensivos si el título es demasiado largo */
+    white-space: nowrap; /* Evitar que el título se divida en varias líneas */
+}
+
+.note_description {
+    font-size: 1rem;
+    color: #555555;
+    margin-bottom: 1rem;
+}
+
+.div_button {
+    margin-top: auto;
+}
+
+.delete_button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete_button:hover {
+    background-color: #ff4837;
+}

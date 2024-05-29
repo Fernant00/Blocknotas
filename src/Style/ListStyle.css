@@ -1,0 +1,8 @@
+/* Estilos de la lista de notas */
+.note_section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Cada tarjeta tiene un ancho mínimo de 300px y se ajusta automáticamente al espacio disponible */
+    grid-gap: 20px; /* Espacio entre las tarjetas */
+    margin: 0 auto; /* Centrar el contenedor */
+    padding: 20px; /* Agregar un poco de espacio alrededor de la lista */
+}

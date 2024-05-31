@@ -42,7 +42,7 @@ function BlockForm() {
 
     return (
         <section style={styles.formContainer}>
-            <h1 style={styles.formTitle}>Registrar not</h1>
+            <h1 style={styles.formTitle}>Registrar nota</h1>
             <form style={styles.form} onSubmit={handleSubmit}>
                 <input
                     style={styles.formInput}

@@ -17,7 +17,7 @@ function BlockForm() {
         };
 
         try {
-            const response = await fetch('http://76.76.21.123:3000/notas', {
+            const response = await fetch('http://localhost:3000/notas', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -42,8 +42,8 @@ function BlockForm() {
 
     return (
         <section style={styles.formContainer}>
-            <h1 style={styles.formTitle}>Registrar nota</h1>
             <form style={styles.form} onSubmit={handleSubmit}>
+            <h1 style={styles.formTitle}>Registrar nota</h1>
                 <input
                     style={styles.formInput}
                     placeholder="Escribe el titulo"

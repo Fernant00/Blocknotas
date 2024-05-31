@@ -17,7 +17,7 @@ function BlockForm() {
         };
 
         try {
-            const response = await fetch('http://localhost:3000/notas', {
+            const response = await fetch('http://76.76.21.123:3000/notas', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
